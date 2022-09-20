@@ -1,1 +1,138 @@
-/* Seu CSS neste arquivo */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* Framework responsivo simples. */
+  .row {
+    width: 100%;
+  }
+  /********** desktop **********/
+  @media (min-width: 992px) {
+
+    .caixa1 {
+        width: 33.33%;
+        float: left;
+        border: 1px;
+        padding: 5%;
+
+    }
+
+
+    .caixa2 {
+        width: 33.33%;
+        float: left;
+        border: 1px;
+        padding: 5%;
+
+    }
+    .caixa3 {
+        width: 33.33%;
+        float: left;
+        border: 1px;
+        padding: 5%;
+
+    }
+  }
+  /**********  tablet **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+
+.caixa1 {
+    width: 50%;
+    float: left;
+    border: 1px;
+    padding: 5%;
+
+}
+
+
+.caixa2 {
+    width: 50%;
+    float: left;
+    border: 1px;
+    padding: 5%;
+
+}
+.caixa3 {
+    width: 100%;
+    float: left;
+    border: 1px;
+    padding: 5%;
+
+}
+}   
+
+@media (max-width: 767px) {
+
+    
+
+        .caixa1 {
+            width: 100%;
+            float: left;
+            border: 1px;
+            padding: 5%;
+        
+        }
+        
+        
+        .caixa2 {
+            width: 100%;
+            float: left;
+            border: 1px;
+            padding: 5%;
+        
+        }
+        .caixa3 {
+            width: 100%;
+            float: left;
+            border: 1px;
+            padding: 5%;
+        
+        }
+     
+
+
+}
+
+  section {
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+    div.row div {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+.caixa1 section {
+    background-color: lightblue;
+}
+
+.caixa2 section {
+    background-color: lightgreen;
+}
+
+.caixa3 section {
+    background-color: lightcoral;
+}
+
+.titulo {
+    border: 1px solid black;
+    text-align: center;
+    background-color: red;
+    color: white;
+    float: right;
+}
+  
+p {
+    clear: both;
+}
